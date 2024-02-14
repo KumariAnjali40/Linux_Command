@@ -66,13 +66,13 @@ Here are some common directories in the root directory of a Linux system and a b
 **PWD COMMANDS**
 
 ```
--pwd(present working directory) -> for know the present working directory.
--pwd -p => show The real Directory.
+- pwd(present working directory) -> for know the present working directory.
+- pwd -p => show The real Directory.
 
 CD(CHANGE DIRECTORY)==>
 
--cd .. =>For Previous Path.
--cd -
+- cd .. =>For Previous Path.
+- cd -
 
 ```
 <hr>
@@ -80,7 +80,7 @@ CD(CHANGE DIRECTORY)==>
 **mkdir**
 
 ```
-mkdir- for making new directory.
+mkdir - for making new directory.
 
 ```
 
@@ -88,7 +88,7 @@ mkdir- for making new directory.
 
 # What is root user ?
 
--> root user has all the previliaged for modifying the files and some other special permission . if # ==> So it is indicating root user  and $ other than root user .
+- > root user has all the previliaged for modifying the files and some other special permission . if # ==> So it is indicating root user  and $ other than root user .
 
 - eg => [root@ip-172-31-10-37 ec2-user]#   (root user).   
 - eg => [ec2-user@ip-172-31-10-37 ~]$  (other than root user).  Switch root user to other user => su username.
