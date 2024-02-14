@@ -48,7 +48,18 @@ Here are some common directories in the root directory of a Linux system and a b
 ```
 
 
+<hr>
 
+** FOR CREATING A USER **
+
+  ```
+  - sudo useradd username
+  - sudo passwd username
+
+ 
+  ```
+
+  <hr>
 
    **LS**
 
