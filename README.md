@@ -1,7 +1,15 @@
-                                                                             # Linux_Command
+                                                                 # Linux_Command
 
-=================
- Basic Linux Commands =========
+
+ <hr>
+
+
+ NOTE : LINUX IS A KERNAL NOT AN OS  ( KERNAL IS A MASTER PROGRAM WHICH MANAGE ALL THE OTHER PROGRAM ) 
+ =============
+
+ <hr>
+ 
+ Basic Linux Commands
 ========================
 
 **ROOT DIRECTORY**
