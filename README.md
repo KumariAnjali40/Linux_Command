@@ -318,6 +318,11 @@ cp -r sourcedirectory destination/
  - mount /dev/sdba1 /utkarsh/ ==> mounting done .
  - now whatever we are storing inside the utkarsh folder that is going to save in the that volume.
 
+ # now if want to increase the size of volume then linux command for that is
+
+- step 1 = > we have to know the type of file system. for this we have to run ====> blkid .
+- step 2 => after knowing the file system we have to run the command for extending the size of volume . ==> resize2f /dev/xv
+
    ```
 
 
