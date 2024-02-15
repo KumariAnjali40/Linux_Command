@@ -331,6 +331,9 @@ cp -r sourcedirectory destination/
 
 
 - By Default the type of file system is xfs.
+
+- Io2 is the only ebs type where we can attached multiple instence at the same time.
+
    ```
 
 
