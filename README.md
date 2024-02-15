@@ -323,6 +323,14 @@ cp -r sourcedirectory destination/
 - step 1 = > we have to know the type of file system. for this we have to run ====> blkid .
 - step 2 => after knowing the file system we have to run the command for extending the size of volume . ==> resize2fs /dev/xvdf
 
+- but this command is for if the type of file system is ext2 ext3 ext4 . and if the file system is xfs then the command is
+
+- growpart /dev/xvda 1
+
+- xfs_growfs /dev/xvda1
+
+
+- By Default the type of file system is xfs.
    ```
 
 
