@@ -334,6 +334,13 @@ cp -r sourcedirectory destination/
 
 - Io2 is the only ebs type where we can attached multiple instence at the same time.
 
+- for parmanent mounting we have to make a entry in a fstab file.
+- vim/etc/fstab
+- for unmounting we have to write ==> unmount /foldername/
+
+- now if we want to make it parament we need to write ==> vim/etc/fstab
+
+
    ```
 
 
