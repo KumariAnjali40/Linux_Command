@@ -376,18 +376,34 @@ cp -r sourcedirectory destination/
  - How to read permission of file/folder , How to assign / remove permission .
  - attribute => Read (r)(Numeric value :4) , Write(w)(Numeric value :2) , Execute (x)(Numeric value: 1).
 
-    ```
+
 
  - ll => show the permission.
 
    # command for changing the permission.
 
    - chmod.
+   # permission for a user.
+
+   # -(file) rw-(user) r--(group) r--(others) .(no special permission for a file) 1 kumarianjali40 kumarianjali40 0 Feb 15 01:30 abc   => this is the default permission for a file created by user.
+   - 6 4 4 (Numeric value).
+
+   # d(Directory)rwx(user)r-x(group)r-x(other).(no special permission for directory) 2 kumarianjali40 kumarianjali40 6 Feb 15 01:35 india
+   - 7 5 5 (NUMERIC VALUE).
+
+
+   # permission for a **ROOT USER**
+
+   # -(file)rw-(user)r--(group)r--(other).(no special permission) 1 root           root           0 Feb 15 01:39 anjali
+
+   - 6 4 4
+
+   # d(directory)rwx(user)r-x(group)r-x(other).(no special permission) 2 root           root           6 Feb 15 01:39 utraksh
+
+   - 7 5 5
 
 
 
-
-```
 
  
 
