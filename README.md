@@ -383,22 +383,22 @@ cp -r sourcedirectory destination/
    # command for changing the permission.
 
    - chmod.
-   # permission for a user.
+   - permission for a user.
 
-   # -(file) rw-(user) r--(group) r--(others) .(no special permission for a file) 1 kumarianjali40 kumarianjali40 0 Feb 15 01:30 abc   => this is the default permission for a file created by user.
+   - -(file) rw-(user) r--(group) r--(others) .(no special permission for a file) 1 kumarianjali40 kumarianjali40 0 Feb 15 01:30 abc   => this is the default permission for a file created by user.
    - 6 4 4 (Numeric value).
 
-   # d(Directory)rwx(user)r-x(group)r-x(other).(no special permission for directory) 2 kumarianjali40 kumarianjali40 6 Feb 15 01:35 india
+   - d(Directory)rwx(user)r-x(group)r-x(other).(no special permission for directory) 2 kumarianjali40 kumarianjali40 6 Feb 15 01:35 india
    - 7 5 5 (NUMERIC VALUE).
 
 
-   # permission for a **ROOT USER**
+   - permission for a **ROOT USER**
 
-   # -(file)rw-(user)r--(group)r--(other).(no special permission) 1 root           root           0 Feb 15 01:39 anjali
+   - -(file)rw-(user)r--(group)r--(other).(no special permission) 1 root           root           0 Feb 15 01:39 anjali
 
    - 6 4 4
 
-   # d(directory)rwx(user)r-x(group)r-x(other).(no special permission) 2 root           root           6 Feb 15 01:39 utraksh
+   - d(directory)rwx(user)r-x(group)r-x(other).(no special permission) 2 root           root           6 Feb 15 01:39 utraksh
 
    - 7 5 5
 
