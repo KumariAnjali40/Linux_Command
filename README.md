@@ -411,7 +411,16 @@ cp -r sourcedirectory destination/
 
    - chmod g+w folder/
   
-   - 
+   # how to change the permission for the others.
+
+   - Before command = > -rw-r--r--. 1 kumarianjali40 kumarianjali40 0 Feb 15 01:30 abc
+    - command 
+   - chmod o=wx 
+
+   - -rw-r---wx. 1 kumarianjali40 kumarianjali40 0 Feb 15 01:30 abc => now other has write and execute command.
+  
+   -  chmod o+x abc
+   -  chmod o-x abc
 
 
 
