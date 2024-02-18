@@ -375,7 +375,19 @@ cp -r sourcedirectory destination/
 
  - How to read permission of file/folder , How to assign / remove permission .
  - attribute => Read (r)(Numeric value :4) , Write(w)(Numeric value :2) , Execute (x)(Numeric value: 1).
- - owner prmission => 
+
+    ```
+
+ - ll => show the permission.
+
+   # command for changing the permission.
+
+   - chmod.
+
+
+
+
+```
 
  
 
