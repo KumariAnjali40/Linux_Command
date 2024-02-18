@@ -401,7 +401,17 @@ cp -r sourcedirectory destination/
    - d(directory)rwx(user)r-x(group)r-x(other).(no special permission) 2 root           root           6 Feb 15 01:39 utraksh
 
    - 7 5 5
+  
 
+   # how to add a user into a group.
+
+   - gpasswd -a username groupname
+
+   # how to change permission for group.
+
+   - chmod g+w folder/
+  
+   - 
 
 
 
